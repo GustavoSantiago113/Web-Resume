@@ -158,17 +158,20 @@ server <- function(input, output, session) {
         
   ## Creating jumbotron work ----
   data_work <- data %>%
-    filter(Category == "Work")
+    filter(Category == "Work") %>%
+    arrange(desc(row_number()))
   output$work_jumbotron <- creating_jumbotrons(data = data_work)
   
   ## Creating jumbotron personal ----
   data_personal <- data %>%
-    filter(Category == "Personal")
+    filter(Category == "Personal") %>%
+    arrange(desc(row_number()))
   output$personal_jumbotron <- creating_jumbotrons(data = data_personal)
   
   ## Creating jumbotron work ----
   data_colab <- data %>%
-    filter(Category == "Collaboration")
+    filter(Category == "Collaboration")%>%
+    arrange(desc(row_number()))
   output$colab_jumbotron <- creating_jumbotrons(data = data_colab)
   
 }

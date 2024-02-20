@@ -1,0 +1,13 @@
+name: WebResume
+title:
+username:
+account: gustavosantiago
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10787332
+bundleId: 8208569
+url: https://gustavosantiago.shinyapps.io/WebResume/
+when: 1706823253.32445
+lastSyncTime: 1706823253.32448
+asMultiple: FALSE
+asStatic: FALSE
