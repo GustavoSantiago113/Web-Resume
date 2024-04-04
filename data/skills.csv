@@ -1,0 +1,28 @@
+﻿Name,ImageSRC,Level
+Python,Python.svg,4
+Arduino,Arduino.svg,4
+R,R.png,4
+C++,C++.png,2
+JS,JS.png,2
+TS,TS.png,1
+Java,Java.png,2
+HTML,HTML.png,4
+CSS,CSS.svg,3
+Dart,Dart.png,4
+Angular,Angular.webp,2
+Spring Boot,SpringBoot.png,2
+Bootstrap,Bootstrap.png,3
+Shiny,Shiny.png,4
+Flutter,Flutter.png,4
+Electron,Electron.png,2
+Flask,Flask.svg,3
+Docker,Docker.png,3
+QGIS,QGIS.png,4
+ArcGIS,ArcGIS.png,3
+Fusion360,Fusion360.svg,4
+AutoCAD,AutoCAD.png,3
+EasyEDA,EasyEDA.png,3
+Office Package,Office Package.png,4
+MongoDB,MongoDB.svg,3
+Soldering,Soldering.png,4
+3D Printing,3D Printing.png,4
