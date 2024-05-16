@@ -302,22 +302,18 @@ ul li .descr::before {
 .boxSkills{
   background-color: rgba(31, 35, 39, 0.5);
   border-radius: 2vh;
-  margin-left: 10%;
-  margin-right: 10%;
   padding-top: 3%;
   padding-bottom: 1%;
   padding-left: 6%;
   padding-right: 6%;
-  width: 80%;
 }
 
 .skills-card {
   background-color: transparent;
   perspective: 1000px;
   margin-bottom: 2%;
-  width: 9em;
-  height: 9em;
-  margin-left:5%
+  width: 10em;
+  height: 10em;
 }
 
 .skills-card-inner {
@@ -461,6 +457,6 @@ ul li .descr::before {
 .owl-dots .owl-dot.active {
   background: rgb(31, 35, 39) !important;
 }
-.owl-stae{
+.owl-stage{
   height: 50vh;
 }

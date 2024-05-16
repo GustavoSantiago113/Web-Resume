@@ -105,3 +105,22 @@ creating_project_carousel <- function(data, section, hasLink){
   
   
 }
+
+# Function to create my hobbies carousel ----
+creating_hobbies_carousel <- function(data){
+  
+  hobbie_list <- lapply(1:nrow(data), function(i) {
+    
+    name <- data[i, "Path"]
+    
+    div(
+      class = "slider-card",
+        img(
+          src = str_glue("hobbies/", name)
+        )
+    )
+  })
+  
+  as.character(do.call(tagList, hobbie_list))
+  
+}

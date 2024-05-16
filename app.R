@@ -3,9 +3,11 @@ library(shiny)
 library(bslib)
 library(shinyWidgets)
 library(tidyverse)
+library(slickR)
 source("functions.R")
 
 projects <- read.csv("data/myprojects.csv")
+hobbies <- read.csv("data/hobbies.csv")
 
 # Creating page ----
 
@@ -189,26 +191,24 @@ ui <- fluidPage(
       column(
         width = 4,
         img(
-          class = "pop",
           style = "height: 30em;",
           src = "aboutMe/aboutMeImage.jpg"
         )
       ),
       column(
-        class = "pop delay",
         width = 8,
         style = "text-align: justify; --delay-time:1s",
         tags$h5(
-          "Hello world! I am Gustavo N. Santiago, an enthusiast of computers and electronics in agriculture, miniatures, and DIY projects."
+          "Hello world! I am Gustavo N. Santiago, a biosystems engineer who graduated from the University of Sao Paulo (USP) and pursuing a master's degree in agronomy at Kansas State University (KSU). I am an enthusiast of computers and electronics applied to rural science, miniatures, and DIY projects."
         ),
         tags$h5(
-          "My path started in 2017 when I started my Biosystems Engineering college at University of Sao Paulo, Brazil. During my college, I did many things, such as being part of a junior company, member of the academic secretary, and the three scientific initiations. Later on, I was an intern at three companies: IA Prisma, working with intelligent agronomy; IZAgro, working with mobile apps to help agronomists and regenerative agriculture; and 6th Grain, being part of the science and marketing research."
+          "I have skills in different computational languages and frameworks; GIS, CAD, circuitry and database software; PCB, and 3D printing projects."
         ),
         tags$h5(
-          "In 2022, I moved to the United States to be a scholar at Kansas State University with Ciampitti Lab, where I could develop many projects related to digital agriculture. "
+          "I have already worked in many different fields: biofuels in a chemical lab; microbiology to improve yield at a biological lab; image analysis and wastewater; precision agriculture and data science; development of digital tools for web and mobile; development of sensors for agriculture and last but not least, usage and creation of deep learning models."
         ),
         tags$h5(
-          "Nowadays I am a master's student at Kansas State and Ciampitti Lab, moving forward with digital agriculture projects."
+          "Outside my work, I paint miniatures and dioramas, which require a lot of patience and attention to detail. I also work on personal projects that attract my attention and curiosity."
         ),
         tags$h5(
           style = "font-weight: bold",
@@ -427,7 +427,7 @@ ui <- fluidPage(
   ## 9. My hobbies ----
   div(
     id = "myHobbies",
-    #style = "background-image: url('hobbies/background.png')",
+    style = "background-image: url('hobbies/background.png'); background-repeat: no-repeat; background-position: center; background-size: cover;",
     div(
       class = "sectionHeader",
       div(
@@ -438,7 +438,7 @@ ui <- fluidPage(
         ),
         tags$h4(
           "My hobbies",
-          style = "color: black"
+          style = "color: white"
         )
       ),
       div(
@@ -446,29 +446,30 @@ ui <- fluidPage(
           class = "directingArrow",
           img(
             class = "arrowUp",
-            src = "arrow.svg"
+            style = "margin-right: 10px;",
+            src = "hobbies/arrow.svg"
           ),
           data_target = "myProjects"
         )
       )
     ),
-    tags$h2(
-      "This section is still under development, stay tunned for more!",
-      style = "color: black; text-align: center"
-    )
+    div(
+      class = "slider",
+      div(
+        class = "owl-carousel",
+        HTML(creating_hobbies_carousel(hobbies))
+      )
+    ),
   )
   
 
 )
-
-
 
 # Server ----
 server <- function(input, output, session) {
   
   ## Loading data ----
   skills <- read.csv("data/skills.csv")
-  #projects <- read.csv("data/myprojects.csv")
   
   ## Skills ----
   output$skillBoxes <- renderUI({
