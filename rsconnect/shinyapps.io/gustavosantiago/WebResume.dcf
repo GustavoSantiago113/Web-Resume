@@ -5,9 +5,9 @@ account: gustavosantiago
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10787332
-bundleId: 8570096
+bundleId: 8764847
 url: https://gustavosantiago.shinyapps.io/WebResume/
-when: 1714686606.62044
-lastSyncTime: 1714686606.62046
+when: 1718831771.06891
+lastSyncTime: 1718831771.06892
 asMultiple: FALSE
 asStatic: FALSE

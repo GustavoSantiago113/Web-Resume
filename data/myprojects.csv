@@ -1,6 +1,6 @@
-Title,Image,Link,Category
+﻿Title,Image,Link,Category
 Trichoderma fungus to promote yield increase in grass species,Trichoderma.jpg,https://repositorio.usp.br/item/003030683,Work
-Analyzing the vegetative development of soybeans irrigated with slaughterhouse-treated wastewater using images and other sensor datas,Slaughterhouse.jpg,https://github.com/GustavoSantiago113/Soy_RGB_Index_Extration,Work
+Analyzing the vegetative development of soybeans irrigated with slaughterhouse-treated wastewater using images and other sensor datas,Slaughterhouse.jpg,https://drive.google.com/uc?export=download&id=1FYc1naNYH4WszST-Uxny_UZcoq9c41Jb,Work
 Guyri - A desktop app to size several agricultural engineering projects,Guyri.png,https://github.com/GustavoSantiago113/Guyri,Personal
 CorN - A Shiny App dashboard to analyze economical and agronomical optimum amount of nitrogen fertilization for corn in Kansas,CorN.png,https://github.com/GustavoSantiago113/CorN/tree/Version1,Work
 CosNutri - A Shiny App dashboard to display the results obtained from simulations of costs and nutritional information of pearl-millet cultivation in Senegal,CosNutri.png,https://github.com/GustavoSantiago113/CosNutSenegal-App,Work
@@ -9,10 +9,11 @@ An Arduino-based datalogger to store soil temperature data from 24 sensors,Datal
 A Python algorithm to estimate the number of grains of a sorghum panicle from images taken at field-scale,Sorghum.png,https://newprairiepress.org/kaesrr/vol9/iss4/6/,Work
 A 3D printed microscope for educational purposes,Microscope.jpeg,https://www.thingiverse.com/thing:6340699,Personal
 DONMaiz - A Shinny App dashboard for optimal nitrogen doses for corn in Argentina,DONMaiz.png,https://ciampittilab.shinyapps.io/DONMaiz/#section-principal,Collaboration
-A 3D printed microscope to be attached to a smartphone,MicroscopeSmartphone.jpg,https://www.thingiverse.com/thing:6463963,Personal
+A 3D printed microscope to be attached to a smartphone,MicroscopeSmartphone.jpg,https://drive.google.com/uc?export=download&id=1Gi8Nfr4dVH4O4Aq4R-yzBQIJw3U9addM,Personal
 An Arduino-based low-cost weather station,WS.jpg,https://github.com/GustavoSantiago113/Estacao-Meteorologica,Work
 A small business administration help tool in R Shiny,Isa's tool.png,https://github.com/GustavoSantiago113/Administration-Help-Tool,Personal
 Deep learning methods using imagery from a smartphone for recognizing sorghum panicles and counting grains at an on-farm scale,sorghumCounter.png,,Ongoing
 A mobile app to estimate sorghum grain number and yield from field images,sorghumApp.jpg,,Ongoing
 My web resume,webResume.png,,Ongoing
 Parameter optimization for I. paraguariensis ball milling,ball.jpg,https://drive.google.com/uc?export=download&id=1Mj8LT8EZ3de2uU6z8UTuFZs4A5gP8HI6,Personal
+"A fullstack login application using Spring Boot, Angular and Flutter with JWT security and Email verification",ARA.png,,Ongoing

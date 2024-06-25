@@ -4,16 +4,16 @@ Arduino,Arduino.svg,4
 R,R.png,4
 C++,C++.png,2
 JS,JS.png,2
-TS,TS.png,1
-Java,Java.png,2
+TS,TS.png,3
+Java,Java.png,3
 HTML,HTML.png,4
 CSS,CSS.svg,3
 Dart,Dart.png,4
-Angular,Angular.webp,2
-Spring Boot,SpringBoot.png,2
+Angular,Angular.webp,3
+Spring Boot,SpringBoot.png,3
 Bootstrap,Bootstrap.png,3
 Shiny,Shiny.png,4
-Flutter,Flutter.png,4
+Flutter,Flutter.png,3
 Electron,Electron.png,2
 Flask,Flask.svg,3
 TensorFlow,TensorFlow.png,3
@@ -27,3 +27,4 @@ Office Package,Office Package.png,4
 MongoDB,MongoDB.svg,3
 Soldering,Soldering.png,4
 3D Printing,3D Printing.png,4
+Drone Flight,Drone.png,2
