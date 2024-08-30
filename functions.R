@@ -73,6 +73,7 @@ creating_project_carousel <- function(data, section, hasLink){
     name <- dataUsed[i, "Title"]
     image <- dataUsed[i, "Image"]
     link <- dataUsed[i, "Link"]
+    classified <- dataUsed[i, "Classified"]
     
     div(
       class = "slider-card",
@@ -92,10 +93,19 @@ creating_project_carousel <- function(data, section, hasLink){
           )
         ),
         if(hasLink == TRUE){
-          div(
-            class = "learnMore",
-            "Learn more"
-          ) %>% a(href = link)
+          if(classified == "No"){
+            div(
+              class = "learnMore",
+              "Learn more"
+            ) %>% a(href = link)
+          }
+          else if(classified == "Yes"){
+            actionButton(
+              class = "learnMore",
+              "classifiedProject",
+              "Learn More")
+          }
+          
         }
       )
     )
@@ -103,24 +113,5 @@ creating_project_carousel <- function(data, section, hasLink){
   
   as.character(do.call(tagList, jumbotron_list))
   
-  
-}
-
-# Function to create my hobbies carousel ----
-creating_hobbies_carousel <- function(data){
-  
-  hobbie_list <- lapply(1:nrow(data), function(i) {
-    
-    name <- data[i, "Path"]
-    
-    div(
-      class = "slider-card",
-        img(
-          src = str_glue("hobbies/", name)
-        )
-    )
-  })
-  
-  as.character(do.call(tagList, hobbie_list))
   
 }

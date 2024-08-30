@@ -7,7 +7,6 @@ library(slickR)
 source("functions.R")
 
 projects <- read.csv("data/myprojects.csv")
-hobbies <- read.csv("data/hobbies.csv")
 
 # Creating page ----
 
@@ -139,15 +138,6 @@ ui <- fluidPage(
           src = "arrow.svg"
         ),
         data_target = "myProjects"
-      ),
-      div(
-        class = "firstSectionButton",
-        tags$h5("My hobbies"),
-        img(
-          class = "arrowDown",
-          src = "arrow.svg"
-        ),
-        data_target = "myHobbies"
       )
     )
   ),
@@ -358,14 +348,6 @@ ui <- fluidPage(
         div(
           class = "directingArrow",
           img(
-            class = "arrowDown",
-            src = "arrow.svg"
-          ),
-          data_target = "myHobbies"
-        ),
-        div(
-          class = "directingArrow",
-          img(
             class = "arrowUp",
             src = "arrow.svg"
           ),
@@ -409,6 +391,18 @@ ui <- fluidPage(
         HTML(creating_project_carousel(projects, "Personal", TRUE))
       )
     ),
+    # ARA projects
+    div(
+      class = "projectSection",
+      "ARA Project"
+    ),
+    div(
+      class = "slider",
+      div(
+        class = "owl-carousel",
+        HTML(creating_project_carousel(projects, "ARA", TRUE))
+      )
+    ),
     # Collaborative
     div(
       class = "projectSection",
@@ -424,44 +418,6 @@ ui <- fluidPage(
   ),
   br(),
   
-  ## 9. My hobbies ----
-  div(
-    id = "myHobbies",
-    style = "background-image: url('hobbies/background.png'); background-repeat: no-repeat; background-position: center; background-size: cover;",
-    div(
-      class = "sectionHeader",
-      div(
-        class = "headerTitle",
-        img(
-          class = "sectionIcon",
-          src = "hobbies/icon.svg"
-        ),
-        tags$h4(
-          "My hobbies",
-          style = "color: white"
-        )
-      ),
-      div(
-        div(
-          class = "directingArrow",
-          img(
-            class = "arrowUp",
-            style = "margin-right: 10px;",
-            src = "hobbies/arrow.svg"
-          ),
-          data_target = "myProjects"
-        )
-      )
-    ),
-    div(
-      class = "slider",
-      div(
-        class = "owl-carousel",
-        HTML(creating_hobbies_carousel(hobbies))
-      )
-    ),
-  )
-  
 
 )
 
@@ -474,6 +430,23 @@ server <- function(input, output, session) {
   ## Skills ----
   output$skillBoxes <- renderUI({
     creating_skill_boxes(skills)
+  })
+  
+  ## Classified Projects ----
+  observeEvent(input$classifiedProject, {
+    showModal(
+      modalDialog(
+        title = "Classified project",
+        div(
+          tags$p("I'm sorry, but this is part of a bigger project that will be released anytime in the future..."),
+          tags$p("It will be amazing and revolutionary!"),
+          tags$p("Stay tunned for more updates.")
+        ),
+        fade = TRUE,
+        footer = modalButton("Dismiss"),
+        size = "m"
+      )
+    )
   })
   
 }
