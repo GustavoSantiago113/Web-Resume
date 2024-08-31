@@ -95,10 +95,7 @@ ui <- fluidPage(
       ),
       div(
         style= "margin:auto",
-        img(
-          class = "image",
-          src = "Profile.png"
-        )
+        HTML('<img src="https://lh3.googleusercontent.com/d/1LwidRBpqCmXGK2lvmCrzhYoveSSDv7kC">')
       )
     ),
     div(
@@ -180,10 +177,7 @@ ui <- fluidPage(
     fluidRow(
       column(
         width = 4,
-        img(
-          style = "height: 30em;",
-          src = "aboutMe/aboutMeImage.jpg"
-        )
+        HTML('<img style = "height: 30em" src="https://lh3.googleusercontent.com/d/1JnkSfWPftEkIoHCcO41N-VVQ1qiu-Cy3">')
       ),
       column(
         width = 8,

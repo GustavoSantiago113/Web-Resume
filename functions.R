@@ -74,15 +74,14 @@ creating_project_carousel <- function(data, section, hasLink){
     image <- dataUsed[i, "Image"]
     link <- dataUsed[i, "Link"]
     classified <- dataUsed[i, "Classified"]
+    image_url <- paste0("https://lh3.googleusercontent.com/d/", image)
+    img_html <- sprintf('<img class="projectImage" src="%s">', image_url)
     
     div(
       class = "slider-card",
       div(
         class = "imageProjectContainer",
-        img(
-          class = "projectImage",
-          src = str_glue("projects/", image)
-        )
+        HTML(img_html)
       ),
       div(
         class = "bellowImage",
