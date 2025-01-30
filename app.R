@@ -196,7 +196,7 @@ ui <- fluidPage(
         ),
         tags$h5(
           style = "font-weight: bold",
-          "Email for contact: gsantiago@ksu.edu"
+          "Email for contact: gnoceras@purdue.edu"
         )
       )
     )
@@ -274,9 +274,14 @@ ui <- fluidPage(
                            "During this period, I developed a lot of different projects. I also had the possibility to publish my first paper."),
         life_journey_items("pop delay",
                            "--accent-color:#85CDCA; --delay-time:3.5s",
-                           "2023-Present",
+                           "2023-2024",
                            "Agronomy master student at Kansas State University",
                            "My projects were basically develop a mobile app to estimate the sorghum panicle grain number at field scale. The basis of the project are neural networks and linear models."),
+        life_journey_items("pop delay",
+                           "--accent-color:#E27D5F; --delay-time:3.5s",
+                           "2025-Present",
+                           "Agronomy PhD student at Purdue University",
+                           "My projects are to develop a tool to predict harvest readiness for corn and nutrient deficiencies in leaves using machine learning."),
       )
     )
   ),
@@ -385,18 +390,18 @@ ui <- fluidPage(
         HTML(creating_project_carousel(projects, "Personal", TRUE))
       )
     ),
-    # ARA projects
-    div(
-      class = "projectSection",
-      "ARA Project"
-    ),
-    div(
-      class = "slider",
-      div(
-        class = "owl-carousel",
-        HTML(creating_project_carousel(projects, "ARA", TRUE))
-      )
-    ),
+    # # ARA projects
+    # div(
+    #   class = "projectSection",
+    #   "ARA Project"
+    # ),
+    # div(
+    #   class = "slider",
+    #   div(
+    #     class = "owl-carousel",
+    #     HTML(creating_project_carousel(projects, "ARA", TRUE))
+    #   )
+    # ),
     # Collaborative
     div(
       class = "projectSection",
