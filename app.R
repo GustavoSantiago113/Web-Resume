@@ -278,7 +278,7 @@ ui <- fluidPage(
                            "Agronomy master student at Kansas State University",
                            "My projects were basically develop a mobile app to estimate the sorghum panicle grain number at field scale. The basis of the project are neural networks and linear models."),
         life_journey_items("pop delay",
-                           "--accent-color:#E27D5F; --delay-time:3.5s",
+                           "--accent-color:#E27D5F; --delay-time:4s",
                            "2025-Present",
                            "Agronomy PhD student at Purdue University",
                            "My projects are to develop a tool to predict harvest readiness for corn and nutrient deficiencies in leaves using machine learning."),
