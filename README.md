@@ -1,6 +1,8 @@
 # Web_Resume
  A virtual resume where my network and recruiters can see what I do and did.
 
+It can be accessed through this [link](https://gustavosantiago.shinyapps.io/WebResume)
+
  ## Framework
 
 The resume was built in R using the Shiny framework because of the free deployment on shinyapps.io and because I desired to go beyond the simple dashboard development at work.
@@ -14,4 +16,4 @@ This resume will feature:
 
 ## Inspiration
 
-The inspiration for this website comes from multiple sources around internet
+The inspiration for this website comes from multiple sources around internet.
