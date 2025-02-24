@@ -1,22 +1,23 @@
-Title,Image,Link,Category,Classified
-Trichoderma fungus to promote yield increase in grass species,1I07aqtNJk-Z4fnwdqFkaaLaFw9yXEj-h,https://drive.google.com/uc?export=download&id=1vvJgv1ebmPElkv8V7BVTKLGcgMpDUSel,Work,No
-Analyzing the vegetative development of soybeans irrigated with slaughterhouse-treated wastewater using images and other sensor datas,1aWQFymq13TPBqLwe6N5r-n_o6_MwbCwT,https://drive.google.com/uc?export=download&id=1Oz71KXL97cplxeMk3BFA8B-ChWvQHNRQ,Work,No
-CorN - A Shiny App dashboard to analyze economical and agronomical optimum amount of nitrogen fertilization for corn in Kansas,1rCa-cNajxbHAk02Z6DlRI8W1LIWs44I7,https://github.com/GustavoSantiago113/CorN/tree/Version1,Work,No
-CosNutri - A Shiny App dashboard to display the results obtained from simulations of costs and nutritional information of pearl-millet cultivation in Senegal,1VmVnwIImeVVs5jf0isfk8vHq9UZdugIU,https://github.com/GustavoSantiago113/CosNutSenegal-App,Work,No
-Multiple Channels Low-Cost and Dual Data Storage Data Logger for Building a Soil Temperature Network,13rl1tXYA95CcDryaQ9B3HbBrvVHH1yRr,https://www.sciencedirect.com/science/article/pii/S2468067224000762,Work,No
-A Shiny App dashboard to compare  analyze and integrate Sustainable Intensification data from Senegal,1pGT0BaHe9yXkFiGbEUYpxV_4NPltLU_x,https://github.com/GustavoSantiago113/Senegal-visualizing-data-app,Work,No
-A Python algorithm to estimate the number of grains of a sorghum panicle from images taken at field-scale,1pAXuqPTfdHzQilSZALC_mjQ7kTsz5A1q,https://newprairiepress.org/kaesrr/vol9/iss4/6/,Work,No
-A 3D printed microscope for educational purposes,1fmREI4dVUuY7eFptWBfvsq3mSDljbMYV,https://www.thingiverse.com/thing:6340699,Personal,No
-DONMaiz - A Shinny App dashboard for optimal nitrogen doses for corn in Argentina,1dVpUFsfYNv7Tiy_LptMvVxuj_9cFAi7y,https://ciampittilab.shinyapps.io/DONMaiz/#section-principal,Collaboration,No
-A 3D printed microscope to be attached to a smartphone,10gDzM0OG-EPDR1kYLX8nXdEHSVvTgFMe,https://drive.google.com/uc?export=download&id=1Gi8Nfr4dVH4O4Aq4R-yzBQIJw3U9addM,Personal,No
-An Arduino-based low-cost weather station,1udecGPJFZXxcmaTRJOo0KvPmpv9bBuia,https://github.com/GustavoSantiago113/Estacao-Meteorologica,Work,No
-A small business administration help tool in R Shiny,1Nhpdxu7yr2RCjvNlmgti7hB3TDKBXKIi,https://github.com/GustavoSantiago113/Administration-Help-Tool,Personal,No
-Deep learning methods using imagery from a smartphone for recognizing sorghum panicles and counting grains at an on-farm scale,1o_0DG3g-T4FS2YNkN2fShHpo_TemVZ0f,https://spj.science.org/doi/10.34133/plantphenomics.0234,Work,No
-A mobile app to estimate sorghum grain number and yield from field images,1wG-8WyevVTqIYBMD3sB1ERn9Wpu605KI,,Ongoing,No
-My web resume,1vxO1IUzR6s08am9atpGXFKnbecxrtbLj,,Ongoing,No
-A machine learning algorithm to predict the Total Polyphenol Content before the Folin-Cicalteau assay in Yerba Mate (Ilex paraguariensis),1kzvXJgkWfG-cOBMVg7ruulV-NR79iehl,,Ongoing,No
-Controlling the computer using hand gestures: a literature review and an analysis of user's experience,1ihdyrZ0r755GXSvA6_uVddLVClmYXq4I,,Ongoing,No
-A Collaborative Searchable Database for Cambodia,1mNGOMcOl61n6T3hHOBEV3mrEpFaYP0hT,,Collaboration,No
-Decision Support Systems Book Chapter,1GmGNQO8SL-y2vGWxiX-ofof02Z58OUXp,,Ongoing, No
-Advances in Agronomy Book Chapter,1GmGNQO8SL-y2vGWxiX-ofof02Z58OUXp,,Ongoing, No
-A digital interactive decision dashboard for crop yield trials,19rRtrDfElyVQtMOl0s0QaSx_NdBlT0nb,https://www.sciencedirect.com/science/article/pii/S0168169925001437?dgcid=author#f0010,Collaboration,No
+Title,Image,Link,Category
+Analyzing the inoculation effects of three of Trichoderma spp. species on two Brachiaria spp. Species,1I07aqtNJk-Z4fnwdqFkaaLaFw9yXEj-h,https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00306,Professional
+Reflectance analysis of vegetative development of soy irrigated with slaughterhouse-treated effluent,1aWQFymq13TPBqLwe6N5r-n_o6_MwbCwT,https://www.cabidigitallibrary.org/doi/full/10.5555/20240376447,Professional
+CorN - A Shiny App dashboard to analyze economical and agronomical optimum amount of nitrogen fertilization for corn in Kansas,1rCa-cNajxbHAk02Z6DlRI8W1LIWs44I7,https://github.com/GustavoSantiago113/CorN/tree/Version1,Professional
+CosNutri - A Shiny App dashboard to display the results obtained from simulations of costs and nutritional information of pearl-millet cultivation in Senegal,1VmVnwIImeVVs5jf0isfk8vHq9UZdugIU,https://github.com/GustavoSantiago113/CosNutSenegal-App,Professional
+Multiple Channels Low-Cost and Dual Data Storage Data Logger for Building a Soil Temperature NetProfessional,13rl1tXYA95CcDryaQ9B3HbBrvVHH1yRr,https://www.sciencedirect.com/science/article/pii/S2468067224000762,Professional
+A Shiny App dashboard to compare  analyze and integrate Sustainable Intensification data from Senegal,1pGT0BaHe9yXkFiGbEUYpxV_4NPltLU_x,https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1208286/full,Professional
+A Python algorithm to estimate the number of grains of a sorghum panicle from images taken at field-scale,1pAXuqPTfdHzQilSZALC_mjQ7kTsz5A1q,https://newprairiepress.org/kaesrr/vol9/iss4/6/,Professional
+A 3D printed microscope for educational purposes,1fmREI4dVUuY7eFptWBfvsq3mSDljbMYV,https://www.thingiverse.com/thing:6340699,Personal
+DONMaiz - A Shinny App dashboard for optimal nitrogen doses for corn in Argentina,1dVpUFsfYNv7Tiy_LptMvVxuj_9cFAi7y,https://ciampittilab.shinyapps.io/DONMaiz/#section-principal,Collaboration
+A 3D printed microscope to be attached to a smartphone,10gDzM0OG-EPDR1kYLX8nXdEHSVvTgFMe,https://drive.google.com/uc?export=download&id=1Gi8Nfr4dVH4O4Aq4R-yzBQIJw3U9addM,Personal
+An Arduino-based low-cost weather station,1udecGPJFZXxcmaTRJOo0KvPmpv9bBuia,https://github.com/GustavoSantiago113/Estacao-Meteorologica,Professional
+A small business administration help tool in R Shiny,1Nhpdxu7yr2RCjvNlmgti7hB3TDKBXKIi,https://github.com/GustavoSantiago113/Administration-Help-Tool,Personal
+Deep learning methods using imagery from a smartphone for recognizing sorghum panicles and counting grains at an on-farm scale,1o_0DG3g-T4FS2YNkN2fShHpo_TemVZ0f,https://spj.science.org/doi/10.34133/plantphenomics.0234,Professional
+A mobile app to estimate sorghum grain number and yield from field images,1wG-8WyevVTqIYBMD3sB1ERn9Wpu605KI,,Ongoing
+My web resume,1vxO1IUzR6s08am9atpGXFKnbecxrtbLj,https://github.com/GustavoSantiago113/Web-Resume,Personal
+A machine learning algorithm to predict the Total Polyphenol Content before the Folin-Cicalteau assay in Yerba Mate (Ilex paraguariensis),1kzvXJgkWfG-cOBMVg7ruulV-NR79iehl,,Ongoing
+Controlling the computer using hand gestures: a literature review and an analysis of user's experience,1ihdyrZ0r755GXSvA6_uVddLVClmYXq4I,,Ongoing
+A Collaborative Searchable Database for Cambodia,1mNGOMcOl61n6T3hHOBEV3mrEpFaYP0hT,,Collaboration
+Decision Support Systems Book Chapter,1GmGNQO8SL-y2vGWxiX-ofof02Z58OUXp,,Ongoing
+Advances in Agronomy Book Chapter,1GmGNQO8SL-y2vGWxiX-ofof02Z58OUXp,,Ongoing
+A digital interactive decision dashboard for crop yield trials,19rRtrDfElyVQtMOl0s0QaSx_NdBlT0nb,https://www.sciencedirect.com/science/article/pii/S0168169925001437?dgcid=author#f0010,Collaboration
+Effects of Irrigation with Treated Slaughterhouse Effluent and Bradyrhizobium spp. Inoculation on Soybean,1wHkr-rvFRaFjkLNCCDApqggxRInd3mfc,https://www.mdpi.com/2073-4395/15/1/167,Collaboration

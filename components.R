@@ -1,3 +1,5 @@
+source("functions.R")
+
 header <- function(){
   div(
     class = "header",
@@ -12,7 +14,8 @@ header <- function(){
       actionButton(
         class = "header-button",
         inputId = "projects",
-        label = "Projects"
+        label = "Projects",
+        onclick = "scrollToSection('projects-section'); return false;" 
       ),
       actionButton(
         class = "header-button",
@@ -104,5 +107,18 @@ about_me <- function(){
         )
       )
     )
+  )
+}
+projects <- function(projectsData){
+  div(
+    id = "projects-section",
+    h2("Projects"),
+    project_sub_sections("Ongoing", projectsData),
+    br(),
+    project_sub_sections("Professional", projectsData),
+    br(),
+    project_sub_sections("Personal", projectsData),
+    br(),
+    project_sub_sections("Collaboration", projectsData),
   )
 }
