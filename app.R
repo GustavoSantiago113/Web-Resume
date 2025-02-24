@@ -1,6 +1,5 @@
 # Loading Libraries ----
 library(shiny)
-library(bslib)
 library(shinyWidgets)
 library(dplyr)
 source("components.R")
@@ -23,8 +22,10 @@ ui <- fluidPage(
   header(),
   
   ## 4. Landing Page ----
-  landingPage()
-
+  landingPage(),
+  
+  ## 5. About Me section ----
+  about_me()
 )
 
 # Server ----

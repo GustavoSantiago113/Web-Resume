@@ -6,7 +6,8 @@ header <- function(){
       actionButton(
         class = "header-button",
         inputId = "about",
-        label = "About me"
+        label = "About me",
+        onclick = "scrollToSection('about-section'); return false;" 
       ),
       actionButton(
         class = "header-button",
@@ -74,6 +75,32 @@ landingPage <- function(){
             class = "redirect-image"
           ),
           href = "https://scholar.google.com/citations?user=7ueF09kAAAAJ&hl=en"
+        )
+      )
+    )
+  )
+}
+
+about_me <- function(){
+  div(
+    id = "about-section",
+    h2("About me"),
+    div(
+      class = "animate-section",
+      div(
+        class = "about-me-content",
+        div(
+          class = "about-me-text",
+          p("Hello world! I am Gustavo N. Santiago, a biosystems engineer who graduated from the University of Sao Paulo (USP) and pursuing a master's degree in agronomy at Kansas State University (KSU). I am an enthusiast of computers and electronics applied to rural science, miniatures, and DIY projects."),
+          p("I have skills in different computational languages and frameworks; GIS, CAD, circuitry and database software; PCB, and 3D printing projects."),
+          p("I have already worked in many different fields: biofuels in a chemical lab; microbiology to improve yield at a biological lab; image analysis and wastewater; precision agriculture and data science; development of digital tools for web and mobile; development of sensors for agriculture and last but not least, usage and creation of deep learning models."),
+          p("Outside my work, I paint miniatures and dioramas, which require a lot of patience and attention to detail. I also work on personal projects that attract my attention and curiosity.")
+        ),
+        div(
+          img(
+            class = "about-me-image",
+            src="https://lh3.googleusercontent.com/d/1JnkSfWPftEkIoHCcO41N-VVQ1qiu-Cy3"
+          )
         )
       )
     )
