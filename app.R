@@ -1,12 +1,13 @@
 # Loading Libraries ----
 library(shiny)
 library(shinyWidgets)
-library(dplyr)
+library(tidyverse)
 source("components.R")
 
 # Loading data ----
-skills <- read.csv("data/skills.csv")
+skillsData <- read.csv("data/skills.csv")
 projectsData <- read.csv("data/myprojects.csv")
+journeyData <- read.csv("data/lifeJourney.csv")
 
 # Creating page ----
 ui <- fluidPage(
@@ -29,14 +30,23 @@ ui <- fluidPage(
   ## 2. Inserting Header ----
   header(),
   
-  ## 3. Landing Page ----
-  landingPage(),
-  
-  ## 4. About Me section ----
-  about_me(),
-  
-  ## 5. My projects section ----
-  projects(projectsData),
+  div(
+    class = "main-wrapper",
+    ## 3. Landing Page ----
+    landingPage(),
+    
+    ## 4. About Me section ----
+    about_me(),
+    
+    ## 5. My projects section ----
+    projects(projectsData),
+    
+    ## 6. My skills section ----
+    skills(skillsData),
+    
+    ## 7. Life journey ----
+    life_journey(journeyData)
+  ),
   
   ## Inserting Carousel JS ----
   tags$script(src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")

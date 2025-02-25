@@ -9,23 +9,25 @@ header <- function(){
         class = "header-button",
         inputId = "about",
         label = "About me",
-        onclick = "scrollToSection('about-section'); return false;" 
+        onclick = "scrollToSection('about-section'); return false;"
       ),
       actionButton(
         class = "header-button",
         inputId = "projects",
         label = "Projects",
-        onclick = "scrollToSection('projects-section'); return false;" 
+        onclick = "scrollToSection('projects-section'); return false;"
       ),
       actionButton(
         class = "header-button",
         inputId = "skills",
-        label = "Skills"
+        label = "Skills",
+        onclick = "scrollToSection('skills-section'); return false;"
       ),
       actionButton(
         class = "header-button",
         inputId = "lifejourney",
-        label = "Life journey"
+        label = "Life journey",
+        onclick = "scrollToSection('life-journey-section'); return false;"
       )
     )
   )
@@ -49,6 +51,7 @@ landingPage <- function(){
         class = "download-cv",
         "Download CV"
       ) %>% a(href = "https://docs.google.com/document/d/1hasS1xHCRxC3n7aBsK9_tabxLKmxEuh9/edit?usp=sharing&ouid=105674572987363156197&rtpof=true&sd=true"),
+      h3("Email for contact: gustavosantiago@alumni.usp.br"),
       div(
         class = "icons-redirect",
         tags$a(
@@ -109,6 +112,7 @@ about_me <- function(){
     )
   )
 }
+
 projects <- function(projectsData){
   div(
     id = "projects-section",
@@ -117,5 +121,27 @@ projects <- function(projectsData){
     project_sub_sections("Professional", projectsData),
     project_sub_sections("Personal", projectsData),
     project_sub_sections("Collaboration", projectsData),
+  )
+}
+
+skills <- function(skillsData){
+  div(
+    id = "skills-section",
+    h2("Skills"),
+    skills_sub_sections("Language", skillsData),
+    skills_sub_sections("Framework", skillsData),
+    skills_sub_sections("Tools", skillsData),
+    skills_sub_sections("Hability", skillsData),
+  )
+}
+
+life_journey <- function(data){
+  div(
+    id = "life-journey-section",
+    h2("Life Journey"),
+    div(
+      class = "journey-container",
+      HTML(render_life_journey(data))
+    )
   )
 }

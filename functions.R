@@ -53,3 +53,76 @@ render_project_cards <- function(filterName, data){
   
   as.character(do.call(tagList, jumbotron_list))
 }
+
+skills_sub_sections <- function(filterName, data){
+  div(
+    class = "animate-section",
+    h3(
+      class = "projects-subtitle",
+      filterName
+    ),
+    div(
+      class = "skills-container",
+      HTML(render_skills_cards(filterName, data))
+    )
+  )
+}
+
+render_skills_cards <- function(filterName, data){
+  
+  dataUsed <- data %>% filter(Category == filterName)
+  
+  jumbotron_list <- lapply(1:nrow(dataUsed), function(i) {
+    
+    name <- dataUsed[i, "Name"]
+    image <- dataUsed[i, "ImageSRC"]
+    level <- dataUsed[i, "Level"]
+    
+    div(
+      class = "skills-card",
+      div(
+        class = "skills-card-inner",
+        div(
+          class = "skills-card-front",
+          img(
+            class = "imgSkills",
+            src = str_glue("skills/", image)
+          ),
+          h5(
+            name
+          )
+        ),
+        div(
+          class = "skills-card-back",
+          h5(
+            "Level"
+          ),
+          h4(
+            paste(level, "/5", sep = "")
+          )
+        )
+      )
+    )
+  })
+  
+  as.character(do.call(tagList, jumbotron_list))
+  
+}
+
+render_life_journey <- function(data){
+  
+  journey_list <- lapply(1:nrow(data), function(i) {
+    date <- data[i, "Date"]
+    fact <- data[i, "Fact"]
+    
+    div(
+      class = "journey-box",
+      h4(date),
+      div(
+        class = "circle"
+      ),
+      h5(fact)
+    )
+  })
+  as.character(do.call(tagList, journey_list))
+}
