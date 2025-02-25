@@ -94,10 +94,10 @@ about_me <- function(){
         class = "about-me-content",
         div(
           class = "about-me-text",
-          p("Hello world! I am Gustavo N. Santiago, a biosystems engineer who graduated from the University of Sao Paulo (USP) and pursuing a master's degree in agronomy at Kansas State University (KSU). I am an enthusiast of computers and electronics applied to rural science, miniatures, and DIY projects."),
-          p("I have skills in different computational languages and frameworks; GIS, CAD, circuitry and database software; PCB, and 3D printing projects."),
-          p("I have already worked in many different fields: biofuels in a chemical lab; microbiology to improve yield at a biological lab; image analysis and wastewater; precision agriculture and data science; development of digital tools for web and mobile; development of sensors for agriculture and last but not least, usage and creation of deep learning models."),
-          p("Outside my work, I paint miniatures and dioramas, which require a lot of patience and attention to detail. I also work on personal projects that attract my attention and curiosity.")
+          h3("Hello world! I am Gustavo N. Santiago, a biosystems engineer who graduated from the University of Sao Paulo (USP) and pursuing a master's degree in agronomy at Kansas State University (KSU). I am an enthusiast of computers and electronics applied to rural science, miniatures, and DIY projects."),
+          h3("I have skills in different computational languages and frameworks; GIS, CAD, circuitry and database software; PCB, and 3D printing projects."),
+          h3("I have already worked in many different fields: biofuels in a chemical lab; microbiology to improve yield at a biological lab; image analysis and wastewater; precision agriculture and data science; development of digital tools for web and mobile; development of sensors for agriculture and last but not least, usage and creation of deep learning models."),
+          h3("Outside my work, I paint miniatures and dioramas, which require a lot of patience and attention to detail. I also work on personal projects that attract my attention and curiosity.")
         ),
         div(
           img(
@@ -114,11 +114,8 @@ projects <- function(projectsData){
     id = "projects-section",
     h2("Projects"),
     project_sub_sections("Ongoing", projectsData),
-    br(),
     project_sub_sections("Professional", projectsData),
-    br(),
     project_sub_sections("Personal", projectsData),
-    br(),
     project_sub_sections("Collaboration", projectsData),
   )
 }

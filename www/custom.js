@@ -8,8 +8,10 @@ function scrollToSection(sectionId) {
     // Get the element's position relative to the viewport
     const elementPosition = section.getBoundingClientRect().top;
     
+    const sectionMarginTop = parseFloat(getComputedStyle(section).marginTop);
+    
     // Get the current scroll position
-    const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+    const offsetPosition = elementPosition + window.pageYOffset - headerHeight - sectionMarginTop;
     
     // Scroll to the adjusted position
     window.scrollTo({
@@ -38,27 +40,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Carousel
 document.addEventListener("DOMContentLoaded", function () {
-  var swiper = new Swiper(".swiper", {
-    loop: true,
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 3,
-    spaceBetween: 20,
-    pagination: {
-        el: ".swiper-custom-pagination",
-        clickable: true,
+    loop: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 150,
+      modifier: 2.5,
+      slideShadows: true,
     },
-    navigation: {
-        nextEl: "#nav-right",
-        prevEl: "#nav-left"
-    },
-    breakpoints: {
-        300: { slidesPerView: 1 },
-        800: { slidesPerView: 1 },
-        1000: { slidesPerView: 3 }
-    },
-    autoplay: {
-        delay: 3000,       // Auto-slide every 3 seconds
-        disableOnInteraction: false,
+    autoplay:{
+      delay:3000,
+      disableOnInteraction:false,
     }
-})
+  
+  });
 });

@@ -6,19 +6,13 @@ project_sub_sections <- function(filterName, data){
       filterName
     ),
     div(
-      class = "container wide",
+      class = "collection",
       div(
-        class = "swiper",
+        class = "swiper mySwiper",
         div(
           class = "swiper-wrapper",
           HTML(render_project_cards(filterName, data))
-        ),
-        div(
-          class = "swiper-custom-nav",
-          tags$img(id = "nav-left", src="arrow-left.svg"),
-          tags$img(id = "nav-right", src="arrow-right.svg")
-        ),
-        div(class = "swiper-custom-pagination")
+        )
       )
     )
   )
