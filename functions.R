@@ -44,7 +44,8 @@ render_project_cards <- function(filterName, data){
         if(link != ""){
           a(
             "Learn More",
-            href = link
+            href = link,
+            target = "_blank"
           )
         }
       )

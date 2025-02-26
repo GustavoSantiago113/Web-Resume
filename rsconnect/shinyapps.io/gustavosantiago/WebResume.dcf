@@ -1,11 +1,11 @@
 name: WebResume
-title: App
+title: WebResume
 username: gustavosantiago
 account: gustavosantiago
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 12373295
-bundleId: 9733463
+bundleId: 9860794
 url: https://gustavosantiago.shinyapps.io/WebResume/
 version: 1
 asMultiple: FALSE

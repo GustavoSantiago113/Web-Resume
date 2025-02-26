@@ -138,7 +138,7 @@ skills <- function(skillsData){
 life_journey <- function(data){
   div(
     id = "life-journey-section",
-    h2("Life Journey"),
+    h2("Life Journey", style = "margin-bottom: 3.223vh;"),
     div(
       class = "journey-container",
       HTML(render_life_journey(data))
