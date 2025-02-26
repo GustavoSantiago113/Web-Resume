@@ -1,4 +1,4 @@
-# Web_Resume
+# Web Resume
  A virtual resume where my network and recruiters can see what I do and did.
 
 It can be accessed through this [link](https://gustavosantiago.shinyapps.io/WebResume)
