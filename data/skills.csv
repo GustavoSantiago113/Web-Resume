@@ -1,4 +1,4 @@
-﻿Name,ImageSRC,Level,Category
+Name,ImageSRC,Level,Category
 Python,Python.svg,4,Language
 Arduino,Arduino.svg,4,Language
 R,R.png,4,Language
@@ -29,3 +29,6 @@ Soldering,Soldering.png,4,Hability
 3D Printing,3D Printing.png,4,Hability
 Drone Flight,Drone.png,2,Hability
 PyTorch,PyTorch.png,3,Framework
+Go,Go.png,3,Language
+React,React.png,3,Framework
+Postman,Postman.png,3,Tools
