@@ -7,13 +7,7 @@ project_sub_sections <- function(filterName, data){
     ),
     div(
       class = "collection",
-      div(
-        class = "swiper mySwiper",
-        div(
-          class = "swiper-wrapper",
-          HTML(render_project_cards(filterName, data))
-        )
-      )
+      HTML(render_project_cards(filterName, data))
     )
   )
 }
@@ -27,11 +21,11 @@ render_project_cards <- function(filterName, data){
     name <- dataUsed[i, "Title"]
     image <- dataUsed[i, "Image"]
     link <- dataUsed[i, "Link"]
-    image_url <- paste0("https://lh3.googleusercontent.com/d/", image)
+    image_url <- paste0("projects/", image)
     img_html <- sprintf('<img class="card-image" src="%s">', image_url)
     
     div(
-      class = "content swiper-slide",
+      class = "content",
       div(
         class = "image-container",
         HTML(img_html)

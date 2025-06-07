@@ -50,7 +50,7 @@ landingPage <- function(){
       div(
         class = "download-cv",
         "Download CV"
-      ) %>% a(href = "https://docs.google.com/document/d/1hasS1xHCRxC3n7aBsK9_tabxLKmxEuh9/edit?usp=sharing&ouid=105674572987363156197&rtpof=true&sd=true"),
+      ) %>% a(href = "https://docs.google.com/document/d/1hasS1xHCRxC3n7aBsK9_tabxLKmxEuh9/edit?usp=sharing&ouid=105674572987363156197&rtpof=true&sd=true", target = "_blank"),
       h3("Email for contact: gustavosantiago@alumni.usp.br"),
       div(
         class = "icons-redirect",
@@ -59,28 +59,32 @@ landingPage <- function(){
             src = "redirect/Github.png",
             class = "redirect-image"
           ),
-          href = "https://github.com/GustavoSantiago113"
+          href = "https://github.com/GustavoSantiago113",
+          target = "_blank"
         ),
         tags$a(
           img(
             src = "redirect/LinkedIn.png",
             class = "redirect-image"
           ),
-          href = "www.linkedin.com/in/gustavo-nocera-santiago-00796616a"
+          href = "https://www.linkedin.com/in/gustavo-nocera-santiago-00796616a",
+          target = "_blank"
         ),
         tags$a(
           img(
             src = "redirect/ThingIverse.svg",
             class = "redirect-image"
           ),
-          href = "https://www.thingiverse.com/gnsantiago/designs"
+          href = "https://www.thingiverse.com/gnsantiago/designs",
+          target = "_blank"
         ),
         tags$a(
           img(
             src = "redirect/GoogleScholar.png",
             class = "redirect-image"
           ),
-          href = "https://scholar.google.com/citations?user=7ueF09kAAAAJ&hl=en"
+          href = "https://scholar.google.com/citations?user=7ueF09kAAAAJ&hl=en",
+          target = "_blank"
         )
       )
     )
@@ -105,7 +109,7 @@ about_me <- function(){
         div(
           img(
             class = "about-me-image",
-            src="https://lh3.googleusercontent.com/d/1JnkSfWPftEkIoHCcO41N-VVQ1qiu-Cy3"
+            src="aboutMeImage.jpg"
           )
         )
       )

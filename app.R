@@ -15,10 +15,6 @@ ui <- fluidPage(
   ## Inserting CSS ----
   tags$head(
     tags$link(
-      rel = "stylesheet",
-      type = "text/css",
-      href = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"),
-    tags$link(
       rel  = "stylesheet",
       type = "text/css",
       href = "styles.css")
@@ -46,10 +42,8 @@ ui <- fluidPage(
     
     ## 7. Life journey ----
     life_journey(journeyData)
-  ),
+  )
   
-  ## Inserting Carousel JS ----
-  tags$script(src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
 )
 
 # Server ----
