@@ -6,7 +6,7 @@ CosNutri - A Shiny App dashboard to display the results obtained from simulation
 Multiple Channels Low-Cost and Dual Data Storage Data Logger for Building a Soil Temperature NetProfessional,Datalogger.jpg,https://www.sciencedirect.com/science/article/pii/S2468067224000762,Professional
 A Shiny App dashboard to compare  analyze and integrate Sustainable Intensification data from Senegal,SIAF.png,https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1208286/full,Professional
 A Python algorithm to estimate the number of grains of a sorghum panicle from images taken at field-scale,Sorghum.png,https://newprairiepress.org/kaesrr/vol9/iss4/6/,Professional
-A 3D printed microscope for educational purposes,Microscope.jpeg,https://data.mendeley.com/datasets/xtgmvh66y7/1,Personal
+A 3D printed microscope for educational purposes,Microscope.jpg,https://data.mendeley.com/datasets/xtgmvh66y7/1,Personal
 DONMaiz - A Shinny App dashboard for optimal nitrogen doses for corn in Argentina,DONMaiz.png,https://ciampittilab.shinyapps.io/DONMaiz/#section-principal,Collaboration
 A 3D printed microscope to be attached to a smartphone,MicroscopeSmartphone.jpg,https://drive.google.com/uc?export=download&id=1Gi8Nfr4dVH4O4Aq4R-yzBQIJw3U9addM,Personal
 An Arduino-based low-cost weather station,WS.jpg,https://github.com/GustavoSantiago113/Estacao-Meteorologica,Professional
@@ -14,7 +14,7 @@ A small business administration help tool in R Shiny,Isa_s tool.png,https://gith
 Deep learning methods using imagery from a smartphone for recognizing sorghum panicles and counting grains at an on-farm scale,sorghumCounter.png,https://spj.science.org/doi/10.34133/plantphenomics.0234,Professional
 A mobile app to estimate sorghum grain number and yield from field images,sorghumApp.jpg,,Professional
 My web resume,webResume.png,https://github.com/GustavoSantiago113/Web-Resume,Personal
-A machine learning algorithm to predict the Total Polyphenol Content before the Folin-Cicalteau assay in Yerba Mate (Ilex paraguariensis),YerbaMate.jpg,,Ongoing
+A machine learning algorithm to predict the Total Polyphenol Content before the Folin-Cicalteau assay in Yerba Mate (Ilex paraguariensis),YerbaMate.jpg,https://chemrxiv.org/engage/chemrxiv/article-details/68437df2c1cb1ecda008102e,Personal
 Controlling the computer using hand gestures: a literature review and an analysis of user's experience,ComputerControl.png,https://drive.google.com/uc?export=download&id=1exNIW_ELV2X41saauopEFFWDLYjRAO7f,Personal
 A Collaborative Searchable Database for Cambodia,CambodiaSDB.png,,Collaboration
 Decision Support Systems Book Chapter,BookChapter.jpg,,Ongoing
@@ -24,4 +24,5 @@ Effects of Irrigation with Treated Slaughterhouse Effluent and Bradyrhizobium sp
 Nutrient Deficiency Global Image Database Initiative,NutrientDL.jpg,,Ongoing
 Photometry Methods for Wheat Phenotyping,WheatPheno.jpg,,Ongoing
 MiniAid - A Flask Python web tool to aid in pre and painting miniature tasks,MiniAid.png,https://github.com/GustavoSantiago113/MiniAid,Personal
-Art's Dungeon - A Shiny Website to expose my minis and find them a new home,ArtsDungeon.png,https://gustavosantiago.shinyapps.io/ArtsDungeon/_w_afbbc84215764349b597cc230771337c/#!/,Personal
+Art's Dungeon - A Shiny Website to expose my minis and find them a new home,ArtsDungeon.png,https://github.com/GustavoSantiago113/ArtsDungeon,Personal
+Maize Ear Sensing for On-Farm Yield Predictions,corn-depth.png,https://ciampitti-lab.github.io/projects/maize-ear-sensing,Collaboration

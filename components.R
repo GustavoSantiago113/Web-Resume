@@ -50,7 +50,7 @@ landingPage <- function(){
       div(
         class = "download-cv",
         "Download CV"
-      ) %>% a(href = "https://docs.google.com/document/d/1hasS1xHCRxC3n7aBsK9_tabxLKmxEuh9/edit?usp=sharing&ouid=105674572987363156197&rtpof=true&sd=true", target = "_blank"),
+      ) %>% a(href = "https://drive.google.com/uc?export=download&id=1hasS1xHCRxC3n7aBsK9_tabxLKmxEuh9"),
       h3("Email for contact: gustavosantiago@alumni.usp.br"),
       div(
         class = "icons-redirect",

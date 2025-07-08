@@ -224,6 +224,7 @@ p{
   border:           1px solid #2c8c99;
   border-radius:    0.977vh;
   transition: top ease 5s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .content:hover {
   transform: translate(0, -5px);
@@ -271,7 +272,7 @@ p{
   }
   
   .card-content a {
-    width:  20vw;
+    width:  auto;
   }
   
   .card-content p {
