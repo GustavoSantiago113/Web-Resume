@@ -101,10 +101,10 @@ about_me <- function(){
         class = "about-me-content",
         div(
           class = "about-me-text",
-          h3("Hello world! I am Gustavo N. Santiago, a biosystems engineer who graduated from the University of Sao Paulo (USP) and pursuing a master's degree in agronomy at Kansas State University (KSU). I am an enthusiast of computers and electronics applied to rural science, miniatures, and DIY projects."),
-          h3("I have skills in different computational languages and frameworks; GIS, CAD, circuitry and database software; PCB, and 3D printing projects."),
-          h3("I have already worked in many different fields: biofuels in a chemical lab; microbiology to improve yield at a biological lab; image analysis and wastewater; precision agriculture and data science; development of digital tools for web and mobile; development of sensors for agriculture and last but not least, usage and creation of deep learning models."),
-          h3("Outside my work, I paint miniatures and dioramas, which require a lot of patience and attention to detail. I also work on personal projects that attract my attention and curiosity.")
+          h3("Hello world! I am Gustavo N. Santiago, a biosystems engineer who graduated from the University of São Paulo (USP), hold a master’s degree in agronomy from Kansas State University (KSU), and am pursuing a PhD in agronomy at Purdue University. I am an enthusiast of computers and electronics applied to rural sciences, miniatures, and DIY projects."),
+          h3("I have skills in various programming languages and frameworks; GIS, CAD, circuitry, and database software; PCB design; and 3D printing projects."),
+          h3("I have worked in many different fields: biofuels in a chemical lab; microbiology to improve yield in a biological lab; image analysis and wastewater management; precision agriculture and data science; development of digital tools for web and mobile platforms; development of sensors for agriculture; and last but not least, the use and creation of deep learning models."),
+          h3("Outside of work, I paint miniatures and dioramas, which require a lot of patience and attention to detail. I also enjoy working on personal projects that spark my curiosity and interest.")
         ),
         div(
           img(
