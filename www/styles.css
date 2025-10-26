@@ -217,68 +217,131 @@ p{
   margin-right:     3vw;
   transition: top ease 0.5s;
 }
+
 .content {
   height:           43.753vh;
-  width:            21.528vw;
+  width:            320px;
   background-color: #ffffff;
   border:           1px solid #2c8c99;
   border-radius:    0.977vh;
-  transition: top ease 5s;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: top ease 0.5s;
+  box-shadow:       rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display:          flex;
+  flex-direction:   column;
+  flex:             0 1 320px;
 }
+
 .content:hover {
   transform: translate(0, -5px);
 }
-.image-container{
-  height:     26.758vh;
+
+.image-container {
+  height:        240px;
+  width:         320px;
+  display:       flex;
+  align-items:   center;
+  justify-content: center;
+  overflow:      hidden;
 }
-.card-image{
-  width:                    100%;
-  height:                   26.758vh;
-  object-fit:               cover;
-  overflow:                 hidden;
-  margin:                   auto;
+
+.card-image {
+  width:     320px;
+  height:    240px;
+  object-fit:    cover;
   border-top-left-radius:   0.977vh;
   border-top-right-radius:  0.977vh;
+  display:       block;
+  margin:        0 auto;
 }
-.card-content{
+
+.card-content {
   display:          flex;
   justify-content:  center;
   align-items:      center;
   flex-direction:   column;
+  flex:             1 1 auto;
 }
-.card-content p{
+
+.card-content p {
   font-size:      1.5rem;
   text-align:     start;
   padding:        1vh 2.222vw 1vh 2.222vw;
   height:         13vh;
   margin-bottom:  0;
+  overflow:       hidden;
+  text-overflow:  ellipsis;
 }
+
 .card-content a {
   color:          #2c8c99;
-  padding:        0.977 1.465vh;
+  padding:        0.977vh 1.465vh;
   margin-bottom:  5%;
-  width:          15.399vw;
+  width:          90%;
   font-size:      1.8rem;
   text-align:     center;
   height:         3.995vh; 
+  display:        block;
+  word-break:     break-word;
 }
 
 @media screen and (max-width: 1200px) {
-  
-  .content{
-    width:  45vw;
-    height: 50vh;
+  .collection {
+    gap: 1vw;
   }
-  
+  .content {
+    width: 260px;
+    flex: 0 1 260px;
+    height: 350px;
+  }
+  .image-container {
+    height: 160px;
+    width: 260px;
+  }
+  .card-image {
+    width: 260px;
+    height: 160px;
+  }
   .card-content a {
-    width:  auto;
+    width: 90%;
+    font-size: 1.5rem;
   }
-  
   .card-content p {
-    height: 19vh;
+    height: auto;
+    font-size: 1.5rem;
   }
+}
 
+@media screen and (max-width: 900px) {
+  .collection {
+    gap: 2vw;
+  }
+  .content {
+    width: 98vw;
+    min-width: 0;
+    max-width: 98vw;
+    flex: 1 1 98vw;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .image-container {
+    height: 150px;
+    width: 100%;
+  }
+  .card-image {
+    height: 150px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .card-content a {
+    font-size: 1.5rem;
+    height: auto;
+    padding: 0.5em 1em;
+    width: 95%;
+  }
+  .card-content p {
+    font-size: 1.5rem;
+    padding: 1em;
+  }
 }
 
 /* Skills */

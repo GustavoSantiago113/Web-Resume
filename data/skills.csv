@@ -13,12 +13,12 @@ Angular,Angular.webp,3,Framework
 Spring Boot,SpringBoot.png,3,Framework
 Bootstrap,Bootstrap.png,3,Framework
 Shiny,Shiny.png,4,Framework
-Flutter,Flutter.png,3,Framework
+Flutter,Flutter.png,4,Framework
 Electron,Electron.png,2,Framework
-Flask,Flask.svg,3,Framework
+Flask,Flask.svg,4,Framework
 TensorFlow,TensorFlow.png,3,Framework
 Docker,Docker.png,3,Tools
-QGIS,QGIS.png,4,Tools
+QGIS,QGIS.png,3,Tools
 ArcGIS,ArcGIS.png,3,Tools
 Fusion360,Fusion360.svg,4,Tools
 AutoCAD,AutoCAD.png,3,Tools
@@ -28,7 +28,7 @@ MongoDB,MongoDB.svg,3,Tools
 Soldering,Soldering.png,4,Hability
 3D Printing,3D Printing.png,4,Hability
 Drone Flight,Drone.png,2,Hability
-PyTorch,PyTorch.png,3,Framework
+PyTorch,PyTorch.png,4,Framework
 Go,Go.png,3,Language
 React,React.png,3,Framework
 Postman,Postman.png,4,Tools
