@@ -1,34 +1,37 @@
-Title,Image,Link,Category
-Analyzing the inoculation effects of three of Trichoderma spp. species on two Brachiaria spp. Species,Trichoderma.jpg,https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00306,Professional
-Reflectance analysis of vegetative development of soy irrigated with slaughterhouse-treated effluent,Slaughterhouse.jpg,https://www.cabidigitallibrary.org/doi/full/10.5555/20240376447,Professional
-CorN - A Shiny App dashboard to analyze economical and agronomical optimum amount of nitrogen fertilization for corn in Kansas,CorN.png,https://github.com/GustavoSantiago113/CorN/tree/Version1,Professional
-CosNutri - A Shiny App dashboard to display the results obtained from simulations of costs and nutritional information of pearl-millet cultivation in Senegal,CosNutri.png,https://github.com/GustavoSantiago113/CosNutSenegal-App,Professional
-Multiple Channels Low-Cost and Dual Data Storage Data Logger for Building a Soil Temperature NetProfessional,Datalogger.jpg,https://www.sciencedirect.com/science/article/pii/S2468067224000762,Professional
-A Shiny App dashboard to compare  analyze and integrate Sustainable Intensification data from Senegal,SIAF.png,https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1208286/full,Professional
-A Python algorithm to estimate the number of grains of a sorghum panicle from images taken at field-scale,Sorghum.png,https://newprairiepress.org/kaesrr/vol9/iss4/6/,Professional
-A 3D printed microscope for educational purposes,Microscope.jpg,https://data.mendeley.com/datasets/xtgmvh66y7/1,Personal
-DONMaiz - A Shinny App dashboard for optimal nitrogen doses for corn in Argentina,DONMaiz.png,https://ciampittilab.shinyapps.io/DONMaiz/#section-principal,Collaboration
-A 3D printed microscope to be attached to a smartphone,MicroscopeSmartphone.jpg,https://drive.google.com/uc?export=download&id=1Gi8Nfr4dVH4O4Aq4R-yzBQIJw3U9addM,Personal
-An Arduino-based low-cost weather station,WS.jpg,https://github.com/GustavoSantiago113/Estacao-Meteorologica,Professional
-A small business administration help tool in R Shiny,Isa_s tool.png,https://github.com/GustavoSantiago113/Administration-Help-Tool,Personal
-Deep learning methods using imagery from a smartphone for recognizing sorghum panicles and counting grains at an on-farm scale,sorghumCounter.png,https://spj.science.org/doi/10.34133/plantphenomics.0234,Professional
-A mobile app to estimate sorghum grain number and yield from field images,sorghumApp.jpg,,Professional
-My web resume,webResume.png,https://github.com/GustavoSantiago113/Web-Resume,Personal
-A machine learning algorithm to predict the Total Polyphenol Content before the Folin-Cicalteau assay in Yerba Mate (Ilex paraguariensis),YerbaMate.jpg,https://chemrxiv.org/engage/chemrxiv/article-details/68437df2c1cb1ecda008102e,Personal
-Controlling the computer using hand gestures: a literature review and an analysis of user's experience,ComputerControl.png,https://drive.google.com/uc?export=download&id=1exNIW_ELV2X41saauopEFFWDLYjRAO7f,Personal
-A Collaborative Searchable Database for Cambodia,CambodiaSDB.png,,Collaboration
-Decision Support systems in precision agriculture and conservation,chapter_peter.jpg,https://books.google.com.br/books?hl=en&lr=&id=zOyZEQAAQBAJ&oi=fnd&pg=PP1&ots=_zLy7XC33j&sig=G2oAh4C7MFAUJle1DhGKZhR_DoQ&redir_esc=y#v=onepage&q&f=false,Collaboration
-Digital agriculture to transform decision support systems: State of the art and prospects,AdvancesInAgronomy.png,https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/S0065211325001178,Collaboration
-A digital interactive decision dashboard for crop yield trials,AVYield.png,https://www.sciencedirect.com/science/article/pii/S0168169925001437?dgcid=author#f0010,Collaboration
-Effects of Irrigation with Treated Slaughterhouse Effluent and Bradyrhizobium spp. Inoculation on Soybean,CarolWork.jpg,https://www.mdpi.com/2073-4395/15/1/167,Collaboration
-Nutrient Deficiency Global Image Database Initiative,NutrientDL.jpg,,Ongoing
-Photometry and Deep Learning Methods for Sorghum Phenotyping,SorghumPhenotype.jpg,,Ongoing
-Terrarium Automation and Monitoring Using IoT,Terrarium.jpg,https://github.com/GustavoSantiago113/TerrariumMonitor/tree/main,Personal
-MiniAid - A Flask Python web tool to aid in pre and painting miniature tasks,MiniAid.png,https://github.com/GustavoSantiago113/MiniAid,Personal
-Art's Dungeon - A Shiny Website to expose my minis and find them a new home,ArtsDungeon.png,https://github.com/GustavoSantiago113/ArtsDungeon,Personal
-Maize Ear Sensing for On-Farm Yield Predictions,corn-depth.png,https://ciampitti-lab.github.io/projects/maize-ear-sensing,Collaboration
-3D Scanning Table,3DScanner.jpg,https://github.com/GustavoSantiago113/ScanningTable,Personal
-GNSolutions - Home server API and Mobile App,GNSolutions.jpg,,Ongoing
-Analysing the Effect of Genotype and Growth date on Segmentation Models on Diverse Crops,SegmentationStudy.png,,Ongoing
-Compiling and Implementing AI-Based 3D Reconstruction Methods,ReconstructionStudy.png,https://github.com/GustavoSantiago113/ReconstructionStudies,Personal
-PlotScout: A mobile app to collect in-field data using customized forms,PlotScout.png,,Professional
+Title,Link,Category
+Analyzing the inoculation effects of three of Trichoderma spp. species on two Brachiaria spp. Species,https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00306,Professional
+Reflectance analysis of vegetative development of soy irrigated with slaughterhouse-treated effluent,https://www.cabidigitallibrary.org/doi/full/10.5555/20240376447,Professional
+CorN - A Shiny App dashboard to analyze economical and agronomical optimum amount of nitrogen fertilization for corn in Kansas,https://github.com/GustavoSantiago113/CorN/tree/Version1,Professional
+CosNutri - A Shiny App dashboard to display the results obtained from simulations of costs and nutritional information of pearl-millet cultivation in Senegal,https://github.com/GustavoSantiago113/CosNutSenegal-App,Professional
+Multiple Channels Low-Cost and Dual Data Storage Data Logger for Building a Soil Temperature NetProfessional,https://www.sciencedirect.com/science/article/pii/S2468067224000762,Professional
+A Shiny App dashboard to compare  analyze and integrate Sustainable Intensification data from Senegal,https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1208286/full,Professional
+A Python algorithm to estimate the number of grains of a sorghum panicle from images taken at field-scale,https://newprairiepress.org/kaesrr/vol9/iss4/6/,Professional
+A 3D printed microscope for educational purposes,https://data.mendeley.com/datasets/xtgmvh66y7/1,Personal
+DONMaiz - A Shinny App dashboard for optimal nitrogen doses for corn in Argentina,https://ciampittilab.shinyapps.io/DONMaiz/#section-principal,Collaboration
+A 3D printed microscope to be attached to a smartphone,https://drive.google.com/uc?export=download&id=1Gi8Nfr4dVH4O4Aq4R-yzBQIJw3U9addM,Personal
+An Arduino-based low-cost weather station,https://github.com/GustavoSantiago113/Estacao-Meteorologica,Professional
+A small business administration help tool in R Shiny,https://github.com/GustavoSantiago113/Administration-Help-Tool,Personal
+Deep learning methods using imagery from a smartphone for recognizing sorghum panicles and counting grains at an on-farm scale,https://spj.science.org/doi/10.34133/plantphenomics.0234,Professional
+A mobile app to estimate sorghum grain number and yield from field images,,Professional
+My web resume,https://github.com/GustavoSantiago113/Web-Resume,Personal
+A machine learning algorithm to predict the Total Polyphenol Content before the Folin-Cicalteau assay in Yerba Mate (Ilex paraguariensis),https://chemrxiv.org/engage/chemrxiv/article-details/68437df2c1cb1ecda008102e,Personal
+Controlling the computer using hand gestures: a literature review and an analysis of user's experience,https://drive.google.com/uc?export=download&id=1exNIW_ELV2X41saauopEFFWDLYjRAO7f,Personal
+A Collaborative Searchable Database for Cambodia,,Collaboration
+Decision Support systems in precision agriculture and conservation,https://books.google.com.br/books?hl=en&lr=&id=zOyZEQAAQBAJ&oi=fnd&pg=PP1&ots=_zLy7XC33j&sig=G2oAh4C7MFAUJle1DhGKZhR_DoQ&redir_esc=y#v=onepage&q&f=false,Collaboration
+Digital agriculture to transform decision support systems: State of the art and prospects,https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/S0065211325001178,Collaboration
+A digital interactive decision dashboard for crop yield trials,https://www.sciencedirect.com/science/article/pii/S0168169925001437?dgcid=author#f0010,Collaboration
+Effects of Irrigation with Treated Slaughterhouse Effluent and Bradyrhizobium spp. Inoculation on Soybean,https://www.mdpi.com/2073-4395/15/1/167,Collaboration
+Nutrient Deficiency Global Image Database Initiative,,Ongoing
+Photometry and Deep Learning Methods for In-Field Sorghum Phenotyping,,Ongoing
+Terrarium Automation and Monitoring Using IoT,https://github.com/GustavoSantiago113/TerrariumMonitor/tree/main,Personal
+MiniAid - A Flask Python web tool to aid in pre and painting miniature tasks,https://github.com/GustavoSantiago113/MiniAid,Personal
+Art's Dungeon - A Shiny Website to expose my minis and find them a new home,https://github.com/GustavoSantiago113/ArtsDungeon,Personal
+Maize Ear Sensing for On-Farm Yield Predictions,https://ciampitti-lab.github.io/projects/maize-ear-sensing,Collaboration
+3D Scanning Table,https://github.com/GustavoSantiago113/ScanningTable,Personal
+GNSolutions - Home server API and Mobile App,,Ongoing
+Assessing robustness and transferability of image-based semantic segmentation models for major field crops,,Ongoing
+Compiling and Implementing AI-Based 3D Reconstruction Methods,https://github.com/GustavoSantiago113/ReconstructionStudies,Personal
+PlotScout: A mobile app to collect in-field data using customized forms,,Professional
+Estimating the plot-level sorghum panicle population and yield using in-field smartphone imagery and deep learning models,,Ongoing 
+A semi-automatic IoT device for home composting,,Ongoing
+A Python-based GUI to extract and analyze features from plant-part images,,Ongoing

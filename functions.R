@@ -19,27 +19,22 @@ render_project_cards <- function(filterName, data){
   jumbotron_list <- lapply(1:nrow(dataUsed), function(i) {
     
     name <- dataUsed[i, "Title"]
-    image <- dataUsed[i, "Image"]
     link <- dataUsed[i, "Link"]
-    image_url <- paste0("projects/", image)
-    img_html <- sprintf('<img class="card-image" src="%s">', image_url)
     
     div(
       class = "content",
       div(
-        class = "image-container",
-        HTML(img_html)
-      ),
-      div(
         class = "card-content",
-        p(
-          name
+        div(
+          class = "card-title",
+          h4(name)
         ),
         if(link != ""){
           a(
-            "Learn More",
+            "Learn More →",
             href = link,
-            target = "_blank"
+            target = "_blank",
+            class = "card-link"
           )
         }
       )
