@@ -12,7 +12,7 @@ A 3D printed microscope to be attached to a smartphone,https://drive.google.com/
 An Arduino-based low-cost weather station,https://github.com/GustavoSantiago113/Estacao-Meteorologica,Professional
 A small business administration help tool in R Shiny,https://github.com/GustavoSantiago113/Administration-Help-Tool,Personal
 Deep learning methods using imagery from a smartphone for recognizing sorghum panicles and counting grains at an on-farm scale,https://spj.science.org/doi/10.34133/plantphenomics.0234,Professional
-A mobile app to estimate sorghum grain number and yield from field images,,Professional
+A mobile app to estimate sorghum panicle traits from field images,,Ongoing
 My web resume,https://github.com/GustavoSantiago113/Web-Resume,Personal
 A machine learning algorithm to predict the Total Polyphenol Content before the Folin-Cicalteau assay in Yerba Mate (Ilex paraguariensis),https://chemrxiv.org/engage/chemrxiv/article-details/68437df2c1cb1ecda008102e,Personal
 Controlling the computer using hand gestures: a literature review and an analysis of user's experience,https://drive.google.com/uc?export=download&id=1exNIW_ELV2X41saauopEFFWDLYjRAO7f,Personal
@@ -22,16 +22,17 @@ Digital agriculture to transform decision support systems: State of the art and 
 A digital interactive decision dashboard for crop yield trials,https://www.sciencedirect.com/science/article/pii/S0168169925001437?dgcid=author#f0010,Collaboration
 Effects of Irrigation with Treated Slaughterhouse Effluent and Bradyrhizobium spp. Inoculation on Soybean,https://www.mdpi.com/2073-4395/15/1/167,Collaboration
 Nutrient Deficiency Global Image Database Initiative,,Ongoing
-Photometry and Deep Learning Methods for In-Field Sorghum Phenotyping,,Ongoing
-Terrarium Automation and Monitoring Using IoT,https://github.com/GustavoSantiago113/TerrariumMonitor/tree/main,Personal
 MiniAid - A Flask Python web tool to aid in pre and painting miniature tasks,https://github.com/GustavoSantiago113/MiniAid,Personal
 Art's Dungeon - A Shiny Website to expose my minis and find them a new home,https://github.com/GustavoSantiago113/ArtsDungeon,Personal
 Maize Ear Sensing for On-Farm Yield Predictions,https://ciampitti-lab.github.io/projects/maize-ear-sensing,Collaboration
-3D Scanning Table,https://github.com/GustavoSantiago113/ScanningTable,Personal
-GNSolutions - Home server API and Mobile App,,Ongoing
 Assessing robustness and transferability of image-based semantic segmentation models for major field crops,,Ongoing
 Compiling and Implementing AI-Based 3D Reconstruction Methods,https://github.com/GustavoSantiago113/ReconstructionStudies,Personal
 PlotScout: A mobile app to collect in-field data using customized forms,,Professional
 Estimating the plot-level sorghum panicle population and yield using in-field smartphone imagery and deep learning models,,Ongoing 
-A semi-automatic IoT device for home composting,,Ongoing
 A Python-based GUI to extract and analyze features from plant-part images,,Ongoing
+Seedling Chamber Automation and Monitoring Using IoT and Computer Vision,,Ongoing
+SPIKE: A 3D Reconstruction Structure for Field Deployment,,Ongoing
+A Framework for Sorghum Panicle 3D Model Completion Using Field Imagery,,Ongoing
+A Deep Learning Framework for Simultaneous Nutrient Stress Diagnostic and Growth Simulation in 3D Plant Phenotyping,,Ongoing
+Bridging the Greenhouse-to-Field Gap: Generative Domain Adaptation for Robust Nitrogen Stress Estimation in Maize,,Ongoing
+A Unified, Offline Graphical User Interface for Multi-Organ Plant Phenotyping and Integrated Machine Learning Analysis,,Ongoing
