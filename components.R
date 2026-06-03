@@ -51,7 +51,7 @@ landingPage <- function(){
         class = "download-cv",
         "Download CV"
       ) %>% a(href = "https://drive.google.com/uc?export=download&id=1hasS1xHCRxC3n7aBsK9_tabxLKmxEuh9"),
-      h3("Email for contact: gustavosantiago@alumni.usp.br"),
+      h3("Email for contact: gnoceras@purdue.edu"),
       div(
         class = "icons-redirect",
         tags$a(
@@ -72,10 +72,10 @@ landingPage <- function(){
         ),
         tags$a(
           img(
-            src = "redirect/ThingIverse.svg",
+            src = "redirect/YouTube.png",
             class = "redirect-image"
           ),
-          href = "https://www.thingiverse.com/gnsantiago/designs",
+          href = "https://www.youtube.com/channel/UCZhTiJvv2n9EvaVY3kF3p3Q",
           target = "_blank"
         ),
         tags$a(

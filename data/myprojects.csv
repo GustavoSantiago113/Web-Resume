@@ -1,38 +1,37 @@
-Title,Link,Category
-Analyzing the inoculation effects of three of Trichoderma spp. species on two Brachiaria spp. Species,https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00306,Professional
-Reflectance analysis of vegetative development of soy irrigated with slaughterhouse-treated effluent,https://www.cabidigitallibrary.org/doi/full/10.5555/20240376447,Professional
-CorN - A Shiny App dashboard to analyze economical and agronomical optimum amount of nitrogen fertilization for corn in Kansas,https://github.com/GustavoSantiago113/CorN/tree/Version1,Professional
-CosNutri - A Shiny App dashboard to display the results obtained from simulations of costs and nutritional information of pearl-millet cultivation in Senegal,https://github.com/GustavoSantiago113/CosNutSenegal-App,Professional
-Multiple Channels Low-Cost and Dual Data Storage Data Logger for Building a Soil Temperature NetProfessional,https://www.sciencedirect.com/science/article/pii/S2468067224000762,Professional
-A Shiny App dashboard to compare  analyze and integrate Sustainable Intensification data from Senegal,https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1208286/full,Professional
-A Python algorithm to estimate the number of grains of a sorghum panicle from images taken at field-scale,https://newprairiepress.org/kaesrr/vol9/iss4/6/,Professional
-A 3D printed microscope for educational purposes,https://data.mendeley.com/datasets/xtgmvh66y7/1,Personal
-DONMaiz - A Shinny App dashboard for optimal nitrogen doses for corn in Argentina,https://ciampittilab.shinyapps.io/DONMaiz/#section-principal,Collaboration
-A 3D printed microscope to be attached to a smartphone,https://drive.google.com/uc?export=download&id=1Gi8Nfr4dVH4O4Aq4R-yzBQIJw3U9addM,Personal
-An Arduino-based low-cost weather station,https://github.com/GustavoSantiago113/Estacao-Meteorologica,Professional
-A small business administration help tool in R Shiny,https://github.com/GustavoSantiago113/Administration-Help-Tool,Personal
-Deep learning methods using imagery from a smartphone for recognizing sorghum panicles and counting grains at an on-farm scale,https://spj.science.org/doi/10.34133/plantphenomics.0234,Professional
-A mobile app to estimate sorghum panicle traits from field images,,Ongoing
-My web resume,https://github.com/GustavoSantiago113/Web-Resume,Personal
-A machine learning algorithm to predict the Total Polyphenol Content before the Folin-Cicalteau assay in Yerba Mate (Ilex paraguariensis),https://chemrxiv.org/engage/chemrxiv/article-details/68437df2c1cb1ecda008102e,Personal
-Controlling the computer using hand gestures: a literature review and an analysis of user's experience,https://drive.google.com/uc?export=download&id=1exNIW_ELV2X41saauopEFFWDLYjRAO7f,Personal
-A Collaborative Searchable Database for Cambodia,,Collaboration
-Decision Support systems in precision agriculture and conservation,https://books.google.com.br/books?hl=en&lr=&id=zOyZEQAAQBAJ&oi=fnd&pg=PP1&ots=_zLy7XC33j&sig=G2oAh4C7MFAUJle1DhGKZhR_DoQ&redir_esc=y#v=onepage&q&f=false,Collaboration
-Digital agriculture to transform decision support systems: State of the art and prospects,https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/S0065211325001178,Collaboration
-A digital interactive decision dashboard for crop yield trials,https://www.sciencedirect.com/science/article/pii/S0168169925001437?dgcid=author#f0010,Collaboration
-Effects of Irrigation with Treated Slaughterhouse Effluent and Bradyrhizobium spp. Inoculation on Soybean,https://www.mdpi.com/2073-4395/15/1/167,Collaboration
-Cross-Crop Nutrient Deficiency Diagnostics via Prototypical Networks and Multi-Modal Web-Scraped Data,,Ongoing
-MiniAid - A Flask Python web tool to aid in pre and painting miniature tasks,https://github.com/GustavoSantiago113/MiniAid,Personal
-Art's Dungeon - A Shiny Website to expose my minis and find them a new home,https://github.com/GustavoSantiago113/ArtsDungeon,Personal
-Maize Ear Sensing for On-Farm Yield Predictions,https://ciampitti-lab.github.io/projects/maize-ear-sensing,Collaboration
-Assessing robustness and transferability of image-based semantic segmentation models for major field crops,,Ongoing
-Compiling and Implementing AI-Based 3D Reconstruction Methods,https://github.com/GustavoSantiago113/ReconstructionStudies,Personal
-PlotScout: A mobile app to collect in-field data using customized forms,,Professional
-Estimating the plot-level sorghum panicle population and yield using in-field smartphone imagery and deep learning models,,Ongoing 
-A Python-based GUI to extract and analyze features from plant-part images,,Ongoing
-Seedling Chamber Automation and Monitoring Using IoT and Computer Vision,,Ongoing
-SPIKE: A 3D Reconstruction Structure for Field Deployment,,Ongoing
-A Framework for Sorghum Panicle 3D Model Completion Using Field Imagery,,Ongoing
-A Deep Learning Framework for Simultaneous Nutrient Stress Diagnostic and Growth Simulation in 3D Plant Phenotyping,,Ongoing
-Bridging the Greenhouse-to-Field Gap: Generative Domain Adaptation for Robust Nitrogen Stress Estimation in Maize,,Ongoing
-A Unified Offline Graphical User Interface for Multi-Organ Plant Phenotyping and Integrated Machine Learning Analysis,,Ongoing
+Title,Link,Category,Description,Year,Type,Tags
+Analyzing the inoculation effects of three of Trichoderma spp. species on two Brachiaria spp. Species,https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00306,Professional,,2025,Paper,Agronomy ; R
+Reflectance analysis of vegetative development of soy irrigated with slaughterhouse-treated effluent,https://www.cabidigitallibrary.org/doi/full/10.5555/20240376447,Professional,,2025,Paper,Agronomy ; Python ; Computer Vision
+CorN - A Shiny App dashboard to analyze economical and agronomical optimum amount of nitrogen fertilization for corn in Kansas,https://github.com/GustavoSantiago113/CorN/tree/Version1,Professional,,2023,App,R ; Shiny
+CosNutri - A Shiny App dashboard to display the results obtained from simulations of costs and nutritional information of pearl-millet cultivation in Senegal,https://github.com/GustavoSantiago113/CosNutSenegal-App,Professional,,2023,App,R ; Shiny
+Multiple Channels Low-Cost and Dual Data Storage Data Logger for Building a Soil Temperature NetProfessional,https://www.sciencedirect.com/science/article/pii/S2468067224000762,Professional,,2024,Paper,Electronics ; R ; Shiny ; Cloud Computing
+A Shiny App dashboard to compare  analyze and integrate Sustainable Intensification data from Senegal,https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1208286/full,Professional,,2023,Paper,R ; Shiny
+A Python algorithm to estimate the number of grains of a sorghum panicle from images taken at field-scale,https://newprairiepress.org/kaesrr/vol9/iss4/6/,Professional,,2023,Report,Python ; Phenotyping
+A 3D printed microscope for educational purposes,https://data.mendeley.com/datasets/xtgmvh66y7/1,Personal,,2025,Hardware,DIY ; 3D Printing
+DONMaiz - A Shinny App dashboard for optimal nitrogen doses for corn in Argentina,https://github.com/adriancorrendo/Shiny_DONMaiz,Collaboration,,2022,App,R ; Shiny
+A 3D printed microscope to be attached to a smartphone,https://drive.google.com/uc?export=download&id=1Gi8Nfr4dVH4O4Aq4R-yzBQIJw3U9addM,Personal,,2023,Hardware,DIY ; 3D Printing
+An Arduino-based low-cost weather station,https://github.com/GustavoSantiago113/Estacao-Meteorologica,Professional,,2023,Hardware,3D Printing ; Electronics
+A small business administration help tool in R Shiny,https://github.com/GustavoSantiago113/Administration-Help-Tool,Personal,,2024,App,R ; Shiny
+Deep learning methods using imagery from a smartphone for recognizing sorghum panicles and counting grains at an on-farm scale,https://spj.science.org/doi/10.34133/plantphenomics.0234,Professional,,2024,Paper,Python ; Deep Learning ; Computer Vision ; Phenotyping
+A mobile app to estimate sorghum panicle traits from field images,,Ongoing,,,,
+My web resume,https://github.com/GustavoSantiago113/Web-Resume,Personal,,2026,App,Professional Development ; Shiny
+A machine learning algorithm to predict the Total Polyphenol Content before the Folin-Cicalteau assay in Yerba Mate (Ilex paraguariensis),https://chemrxiv.org/engage/chemrxiv/article-details/68437df2c1cb1ecda008102e,Personal,,2025,Paper,Chemical ; Machine Learning  ; Python
+Controlling the computer using hand gestures: a literature review and an analysis of user's experience,https://drive.google.com/uc?export=download&id=1exNIW_ELV2X41saauopEFFWDLYjRAO7f,Personal,,2024,Review,Python  ; Computer Vision 
+A Collaborative Searchable Database for Cambodia,,Collaboration,,2024,App,R ; Shiny
+Decision Support systems in precision agriculture and conservation,https://books.google.com.br/books?hl=en&lr=&id=zOyZEQAAQBAJ&oi=fnd&pg=PP1&ots=_zLy7XC33j&sig=G2oAh4C7MFAUJle1DhGKZhR_DoQ&redir_esc=y#v=onepage&q&f=false,Collaboration,,2025,Book chapter,Professional Development ; Digital Agronomy
+Digital agriculture to transform decision support systems: State of the art and prospects,https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/S0065211325001178,Collaboration,,2026,Book chapter,Professional Development ; Digital Agronomy
+A digital interactive decision dashboard for crop yield trials,https://www.sciencedirect.com/science/article/pii/S0168169925001437?dgcid=author#f0010,Collaboration,,2025,Paper,Python
+Effects of Irrigation with Treated Slaughterhouse Effluent and Bradyrhizobium spp. Inoculation on Soybean,https://www.mdpi.com/2073-4395/15/1/167,Collaboration,,2025,Paper,Agronomy
+Cross-Crop Nutrient Deficiency Diagnostics via Prototypical Networks and Multi-Modal Web-Scraped Data,,Ongoing,,,,
+MiniAid - A Flask Python web tool to aid in pre and painting miniature tasks,https://github.com/GustavoSantiago113/MiniAid,Personal,,2025,App,Python
+Art's Dungeon - A Shiny Website to expose my minis and find them a new home,https://github.com/GustavoSantiago113/ArtsDungeon,Personal,,2025,App,Shiny
+Maize Ear Sensing for On-Farm Yield Predictions,https://ciampitti-lab.github.io/projects/maize-ear-sensing,Collaboration,,2025,Paper,Python ; Computer Vision ; Phenotyping ; Machine Learning
+Assessing robustness and transferability of image-based semantic segmentation models for major field crops,https://acsess.onlinelibrary.wiley.com/doi/full/10.1002/ppj2.70087,Professional,,2026,Paper,Python ; Computer Vision ; Phenotyping ; Machine Learning
+Compiling and Implementing 3D Reconstruction Methods,https://github.com/GustavoSantiago113/ReconstructionStudies,Personal,,2026,Study,Python ; 3D Reconstruction
+PlotScout: A mobile app to collect in-field data using customized forms,,Professional,,2025,App,React Native ; TypeScript
+Estimating the plot-level sorghum panicle population and yield using in-field smartphone imagery and deep learning models,,Ongoing ,,,,
+Seedling Chamber Automation and Monitoring Using IoT and Computer Vision,,Ongoing,,,,
+SPIKE: A 3D Reconstruction Structure for Field Deployment,,Ongoing,,,,
+A Framework for Sorghum Panicle 3D Model Completion Using Field Imagery,,Ongoing,,,,
+A Deep Learning Framework for Simultaneous Nutrient Stress Diagnostic and Growth Simulation in 3D Plant Phenotyping,,Ongoing,,,,
+Bridging the Greenhouse-to-Field Gap: Generative Domain Adaptation for Robust Nitrogen Stress Estimation in Maize,,Ongoing,,,,
+A Unified Offline Graphical User Interface for Multi-Organ Plant Phenotyping and Integrated Machine Learning Analysis,,Ongoing,,,,
