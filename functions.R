@@ -1,6 +1,28 @@
+project_filters <- function(categories, data){
+  counts <- table(trimws(data$Category))
+  chip <- function(label, value, n, active = FALSE){
+    tags$button(
+      type = "button",
+      class = paste("filter-chip", if(active) "active"),
+      `data-filter` = value,
+      `aria-pressed` = if(active) "true" else "false",
+      label,
+      span(class = "filter-count", n)
+    )
+  }
+  div(
+    class = "project-filters",
+    role = "group",
+    `aria-label` = "Filter projects",
+    chip("All", "all", nrow(data), active = TRUE),
+    lapply(categories, function(cat) chip(cat, cat, counts[[cat]]))
+  )
+}
+
 project_sub_sections <- function(filterName, data){
   div(
-    class = "animate-section",
+    class = "animate-section project-group",
+    `data-category` = filterName,
     h3(
       class = "projects-subtitle",
       filterName
@@ -31,7 +53,6 @@ render_project_cards <- function(filterName, data){
     has_year <- !is.na(year)        && nchar(trimws(year)) > 0
     has_type <- !is.na(type_val)    && nchar(trimws(type_val)) > 0
     has_tags <- !is.na(tags)        && nchar(trimws(tags)) > 0
-    has_meta <- has_year || has_type || has_tags
     has_link <- !is.na(link)        && nchar(trimws(link)) > 0
     
     div(
@@ -39,11 +60,14 @@ render_project_cards <- function(filterName, data){
       span(class = paste("card-category-badge", badge_class), filterName),
       div(class = "card-title", h4(name)),
       if(has_desc) p(class = "card-description", description),
-      if(has_meta) div(
+      if(has_tags) div(
+        class = "card-tags",
+        lapply(trimws(strsplit(tags, ";")[[1]]), function(tag) span(class = "card-tag", tag))
+      ),
+      if(has_year || has_type) div(
         class = "card-meta",
         if(has_year) span(class = "card-meta-item", trimws(year)),
-        if(has_type) span(class = "card-meta-item", trimws(type_val)),
-        if(has_tags) span(class = "card-meta-item", trimws(tags))
+        if(has_type) span(class = "card-meta-item", trimws(type_val))
       ),
       if(has_link) div(
         class = "card-footer",
@@ -55,12 +79,12 @@ render_project_cards <- function(filterName, data){
   as.character(do.call(tagList, jumbotron_list))
 }
 
-skills_sub_sections <- function(filterName, data){
+skills_sub_sections <- function(filterName, data, label = filterName){
   div(
-    class = "animate-section",
+    class = "animate-section skills-group",
     h3(
       class = "projects-subtitle",
-      filterName
+      label
     ),
     div(
       class = "skills-container",
@@ -81,27 +105,18 @@ render_skills_cards <- function(filterName, data){
     
     div(
       class = "skills-card",
+      title = paste0(name, ": ", level, "/5"),
+      img(
+        class = "imgSkills",
+        src = str_glue("skills/", image),
+        alt = ""
+      ),
+      h5(name),
       div(
-        class = "skills-card-inner",
-        div(
-          class = "skills-card-front",
-          img(
-            class = "imgSkills",
-            src = str_glue("skills/", image)
-          ),
-          h5(
-            name
-          )
-        ),
-        div(
-          class = "skills-card-back",
-          h5(
-            "Level"
-          ),
-          h4(
-            paste(level, "/5", sep = "")
-          )
-        )
+        class = "skill-level",
+        role = "img",
+        `aria-label` = paste0("Level ", level, " out of 5"),
+        lapply(1:5, function(j) span(class = paste("skill-dot", if(j <= level) "filled")))
       )
     )
   })
@@ -116,13 +131,12 @@ render_life_journey <- function(data){
     date <- data[i, "Date"]
     fact <- data[i, "Fact"]
     
-    div(
-      class = "journey-box",
-      h4(date),
-      div(
-        class = "circle"
-      ),
-      h5(fact)
+    is_current <- grepl("present", date, ignore.case = TRUE)
+    
+    tags$li(
+      class = paste("journey-box", if(is_current) "current"),
+      span(class = "journey-date", date),
+      p(class = "journey-fact", fact)
     )
   })
   as.character(do.call(tagList, journey_list))

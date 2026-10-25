@@ -12,8 +12,11 @@ journeyData <- read.csv("data/lifeJourney.csv")
 # Creating page ----
 ui <- fluidPage(
   
+  title = "Gustavo Nocera Santiago",
+
   ## Inserting CSS ----
   tags$head(
+    tags$meta(name = "description", content = "Gustavo Nocera Santiago - Biosystems Engineer and PhD researcher working with computers and electronics in agriculture."),
     tags$link(
       rel  = "stylesheet",
       type = "text/css",
@@ -42,7 +45,10 @@ ui <- fluidPage(
     
     ## 7. Life journey ----
     life_journey(journeyData)
-  )
+  ),
+  
+  ## 8. Footer ----
+  footer()
   
 )
 
