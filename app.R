@@ -9,6 +9,11 @@ skillsData <- read.csv("data/skills.csv")
 projectsData <- read.csv("data/myprojects.csv")
 journeyData <- read.csv("data/lifeJourney.csv")
 
+# Adds the file's modification time to its URL so browsers never reuse an old copy
+versioned <- function(file){
+  paste0(file, "?v=", as.integer(file.mtime(file.path("www", file))))
+}
+
 # Creating page ----
 ui <- fluidPage(
   
@@ -20,11 +25,11 @@ ui <- fluidPage(
     tags$link(
       rel  = "stylesheet",
       type = "text/css",
-      href = "styles.css")
+      href = versioned("styles.css"))
   ),
-  
+
   ## 1. Insert JavaScript ----
-  includeScript("www/custom.js"),
+  tags$script(src = versioned("custom.js")),
   
   ## 2. Inserting Header ----
   header(),

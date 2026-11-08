@@ -48,7 +48,9 @@ render_project_cards <- function(filterName, data){
     year        <- if("Year"        %in% colnames(dataUsed)) as.character(dataUsed[i, "Year"])        else NA_character_
     type_val    <- if("Type"        %in% colnames(dataUsed)) as.character(dataUsed[i, "Type"])        else NA_character_
     tags        <- if("Tags"        %in% colnames(dataUsed)) as.character(dataUsed[i, "Tags"])        else NA_character_
-    
+    image       <- if("Image"       %in% colnames(dataUsed)) as.character(dataUsed[i, "Image"])       else NA_character_
+
+    has_image <- !is.na(image)      && nchar(trimws(image)) > 0
     has_desc <- !is.na(description) && nchar(trimws(description)) > 0
     has_year <- !is.na(year)        && nchar(trimws(year)) > 0
     has_type <- !is.na(type_val)    && nchar(trimws(type_val)) > 0
@@ -56,7 +58,16 @@ render_project_cards <- function(filterName, data){
     has_link <- !is.na(link)        && nchar(trimws(link)) > 0
     
     div(
-      class = "content",
+      class = paste("content", if(has_image) "has-image"),
+      if(has_image) div(
+        class = "card-image",
+        img(
+          src = paste0("projects/", trimws(image)),
+          alt = "",
+          loading = "lazy",
+          decoding = "async"
+        )
+      ),
       span(class = paste("card-category-badge", badge_class), filterName),
       div(class = "card-title", h4(name)),
       if(has_desc) p(class = "card-description", description),

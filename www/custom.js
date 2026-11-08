@@ -38,6 +38,33 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(element);
     });
 
+    // Life journey: each milestone appears as it reaches the middle of the screen
+    const journeyObserver = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                obs.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: "0px 0px -20% 0px" });
+
+    document.querySelectorAll(".journey-box").forEach(box => journeyObserver.observe(box));
+
+    // Life journey: the line fills up following the scroll position
+    const journey = document.querySelector(".journey-container");
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        journey.classList.add("animated");
+    }
+    const updateJourneyLine = () => {
+        const rect = journey.getBoundingClientRect();
+        const reached = window.innerHeight * 0.8 - rect.top;
+        const progress = Math.min(Math.max(reached / rect.height, 0), 1);
+        journey.style.setProperty("--progress", progress.toFixed(3));
+    };
+    window.addEventListener("scroll", updateJourneyLine, { passive: true });
+    window.addEventListener("resize", updateJourneyLine);
+    updateJourneyLine();
+
     // Highlight the nav link of the section currently on screen
     const navLinks = document.querySelectorAll(".header-button");
     const spy = new IntersectionObserver(entries => {

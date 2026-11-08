@@ -167,7 +167,7 @@ life_journey <- function(data){
     span(class = "eyebrow", "Timeline"),
     h2("Life Journey"),
     tags$ol(
-      class = "journey-container animate-section",
+      class = "journey-container",
       HTML(render_life_journey(data))
     )
   )
